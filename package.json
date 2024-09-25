@@ -1,0 +1,29 @@
+{
+  "name": "scafflo",
+  "version": "1.0.0",
+  "description": "CLI for scaffold creation.",
+  "main": "index.js",
+  "bin": {
+    "scafflo": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebas1012/scafflo.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Sebastian H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebas1012/scafflo/issues"
+  },
+  "homepage": "https://github.com/Sebas1012/scafflo#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.2"
+  }
+}
